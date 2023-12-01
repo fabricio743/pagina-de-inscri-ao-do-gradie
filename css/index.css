@@ -22,21 +22,54 @@ body{
     flex-flow: column;
 }
 main{
-    width: 900px;
+    background-color: white;
+    width: 800px;
     height: 500px;
     display: flex;
+    border-radius: 2%;
     
 }
 
 #one-section{
+    width: 50%;
+    align-items: center;
+    text-align: center;
+    border-radius: 2% 0% 0% 2%;
+
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-end;
+
     background-color: #013243;
     font-family: var(--text1);
-    text-align: center;
-    align-items: center;
+    
 }
 #one-section > h1{
     color: white;
 }
 #one-section > p{
     color:  #77acbe;
+    font-size: 14px;
+}
+#one-section > img{
+     height: 80%;
+}
+#two-section{
+    display: flex;
+    flex-flow: column;
+    padding: 50px 40px;
+    
+}
+#two-section > h1{
+    font-family: var(--text1);
+    margin-bottom: 15px;
+}
+#two-section > form {
+    width: 250px;
+    height: 90%;
+    background-color: rgba(255, 0, 0, 0);
+    font-family: var(--text1);
+    font-style: 28px;
+}
+#two-section > .pborda{
 }
