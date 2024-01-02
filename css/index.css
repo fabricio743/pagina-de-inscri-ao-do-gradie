@@ -69,16 +69,34 @@ main{
 #parte2 > form > h3 , p{
     padding: 5px;
 }
+.check-box > input{
+    margin-right: 5px;
+}
+.check-box{
+    display: flex;
+    align-items: baseline;
+    font-family: var(--text1);
+    width: 270px;
+    font-size: 15px;
+    line-height: 20px;
+}
+.input-box{
+    font-size: 15px;
+}
 .input-box > input{
     margin: 0.2rem 0;
     padding: 0.8rem 5rem 0.8rem 0.6rem;
     border: inset 1px rgba(75, 75, 75, 0.384);
-    border-radius: 10px;
+    border-radius: 5px;
     box-shadow: 1px 1px 6 px #0000001c;
 }
 .p2 > input { 
     color: white;
-    padding: 10px 70px;
+    padding: 15px 70px;
     background-color: var(--color1);
+    border-radius: 5px;
     cursor: pointer;
+}
+.p2 > input:hover{
+    color: rgb(0, 0, 0);
 }
