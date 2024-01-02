@@ -22,16 +22,63 @@ main{
 }
 
 #caixa{
-    width: 50%;
-    background-color: white;
+    width: 800px;
+    height: 450px;
+    display: flex;
+    background-color: #013243 ;
 }
 #parte1{
     width: 50%;
-    padding: 0px;
+    height: 450px;
     text-align: center;
-    background-color: #013243;
+    justify-self: center;
+    background-image: url(/img/iPhone\ Mockup.png);
+    background-position: center;
+    background-size: contain;
 }
+
+#parte1 > p{
+    font-size: 12px;
+    color: hsl(195, 40%, 43%);
+}
+#parte1 > h1{
+    color: white;
+    font-size: 1.5em;
+    margin-top: 35px;
+}
+
+
 #parte2{
     width: 50%;
+    height: 450px;
     background-color: white;
+}
+#parte2 > h1{
+    color: black;
+    font-size: 1.5em;
+    margin-top: 35px;
+    margin-left: 40px;
+}
+#parte2 > form{
+    margin-top: 20px;
+    margin-left: 40px;
+    width: 80%;
+    height: 70%;
+    background-color: rgba(127, 255, 212, 0);
+}
+#parte2 > form > h3 , p{
+    padding: 5px;
+}
+.input-box > input{
+    margin: 0.2rem 0;
+    padding: 0.8rem 5rem 0.8rem 0.6rem;
+    border: inset 1px rgba(75, 75, 75, 0.384);
+    border-radius: 10px;
+    box-shadow: 1px 1px 6 px #0000001c;
+}
+.p2 > input { 
+    color: white;
+    padding: 10px 70px;
+    background-color: var(--color1);
+    cursor: pointer;
 }
