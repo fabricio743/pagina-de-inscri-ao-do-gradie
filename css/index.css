@@ -4,7 +4,6 @@
     --text1: 'Roboto Mono', monospace;
     --color1: #013243;
 }
-
 *{
     padding: 0%;
     margin: 0%;
@@ -16,7 +15,7 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(/img/Background.png);
+    background-image: url(Background-tru.png);
     background-position: center;
 }
 #caixa{
@@ -32,7 +31,7 @@ main{
     height: 450px;
     text-align: center;
     justify-self: center;
-    background-image: url(/img/iPhone\ Mockup.png);
+    background-image: url(iPhone\ Mockup\ \(1\).png);
     background-position: center;
     background-size: contain;
 }
@@ -45,6 +44,7 @@ main{
     font-size: 1.5em;
     margin-top: 35px;
 } 
+
 /*PARTE DO LOGIN*/
 #parte2{
     width: 50%;
@@ -57,6 +57,7 @@ main{
     margin-top: 35px;
     margin-left: 40px;
 }
+
 /*PARTE DO LOGIN FORMULARIO*/
 #parte2 > form{
     margin-top: 20px;
@@ -109,7 +110,7 @@ main{
         display: flex;
         align-items: center;
         justify-content: center;
-        background-image: url(/img/Background.png);
+        background-image: url(Background-tru.png);
         background-position: center;
     }
 
@@ -126,7 +127,7 @@ main{
         height: 50%;
         text-align: center;
         justify-self: center;
-        background-image: url(/img/iPhone\ Mockup.png);
+        background-image: url(iPhone\ Mockup\ \(1\).png);
         background-position: center ;
         background-size: contain;
     }
@@ -140,7 +141,7 @@ main{
 }
 
 /*CONFIG PARA CELULAR*/
-@media(max-width:400px){
+@media(max-width:560px){
     main{
         width: 100%;
         height: 809px;
@@ -148,10 +149,9 @@ main{
         display: flex;
         align-items: center;
         justify-content: center;
-        background-image: url(/img/Background.png);
+        background-image: url(Background-tru.png);
         background-position: center;
     }
-
     #caixa{
         width: 280px;
         height: 100%;
@@ -159,21 +159,26 @@ main{
         flex-flow: column nowrap;
         background-color: #013243 ;
     }
-
     #parte1{
         width: 100%;
         height: 50%;
         text-align: center;
         justify-self: center;
-        background-image: url(/img/iPhone\ Mockup.png);
+        background-image: url(iPhone\ Mockup\ \(1\).png);
         background-position: center ;
         background-size: contain;
     }
-
     #parte2{
         width: 100%;
         height: 50%;
         background-color: white;
+    }
+    #parte2 > form{
+        margin-top: 20px;
+        margin-left: 0px;
+        width: 80%;
+        height: 70%;
+        background-color: rgba(127, 255, 212, 0);
     }
 
 }
